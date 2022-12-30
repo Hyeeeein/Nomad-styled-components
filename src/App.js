@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import Extending from "./learn/1.extending/Extending";
+import AsAndAttrs from "./learn/2.As&attrs/AsAndAttrs";
+import Animation from "./learn/3.animation/Animation";
+import PseudoSelectors from "./learn/4.selectors/PseudoSelectors";
+import Themes from "./learn/5.themes/Themes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Extending />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <AsAndAttrs />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Animation />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <PseudoSelectors />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Themes />
+    </>
   );
 }
 
